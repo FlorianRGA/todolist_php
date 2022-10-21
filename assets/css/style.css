@@ -29,7 +29,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-main div {
+main div:nth-child(1) {
     background-color: #32161F;
     width: 60%;
     height: 60%;
@@ -76,6 +76,10 @@ main div button:hover {
     color: #32161F;
     padding: 7px;
 }
+/* form {
+    display: flex;
+    flex-direction: column;
+} */
 /* =FOOTER= */
 footer {
     background-color: #32161F;
@@ -87,4 +91,29 @@ footer p {
     text-align: end;
     color: white;
 }
+.error {
+    color: red;
+}
+span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.todo {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #B56B45;
+    border: solid 1.5px #d6845b;
+    height: 30px;
+    width: 75%;
+    box-shadow: 0px 1px 15px -2px #000000;
+    display: flex;
+    align-items: center;
+}
+.todo p {
+    text-transform: capitalize;
+    padding-left: 10px;
+    color: white;
 
+}
